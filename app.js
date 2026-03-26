@@ -22,7 +22,7 @@ function calcular(a, b, operacao) {
 
         case 'subtracao':
 
-            return a - b;
+            return a + b;
 
         case 'multiplicacao':
 
