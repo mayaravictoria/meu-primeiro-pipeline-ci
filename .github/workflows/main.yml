@@ -76,7 +76,7 @@ jobs:
 
         echo "Aplicação executada com sucesso!"
 
-        node app.js
+        node test.js
 
     - name: 5. Mensagem de sucesso
 
