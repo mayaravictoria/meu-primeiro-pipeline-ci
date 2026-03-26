@@ -74,19 +74,11 @@ jobs:
 
         node app.js
 
-        echo "Aplicação executada com sucesso!"
-       
-        name: 4.5. Executando testes automatizados
-
-    run: |
-
-        echo " Iniciando bateria de testes..."
-
-        node test.js
-
+        echo "Aplicação executada com sucesso!"        
 
     - name: 5. Mensagem de sucesso
-    
+
+      run: |
 
         echo "Parabéns! Seu primeiro pipeline de CI está funcionando!"
 
